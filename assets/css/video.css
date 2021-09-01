@@ -1,0 +1,94 @@
+/* ----- 背景用の動画ファイル ----- */
+body{
+    background-color: #000;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+video {
+  min-width: 100%;
+  min-height: 100vh;
+  position: absolute;
+}
+
+#bg-video{
+margin:0 auto;
+ min-width: 100%;
+ min-height: 100%;
+ width: 100%;
+ height: 100%;
+ z-index: -100;
+ background-color:#000;
+ background-size: cover;
+ overflow: hidden;
+}
+
+@media (aspect-ratio: 16/9), (min-aspect-ratio: 16/9) {
+  video {
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  video {
+  object-fit: cover;
+  }
+}
+
+/* ----- 背景の上に表示させたいコンテンツ ----- */
+.header-title{
+ position: absolute; /*必ず必要*/
+ z-index: 2; /*必ず必要*/
+ display: flex;
+ width: 20%;
+ height:auto;
+ text-align:left;
+ color:#fff;
+ background-color: rgba(0,0,0,0.5);
+ right:0px;
+ bottom:10%;
+border:solid 1px #fff;
+border-right:transparent;
+border-radius: 15px 0px 0px 15px;
+padding-left:20px;
+}
+
+@media screen and (max-width: 768px) {
+.header-title{
+ position: absolute; /*必ず必要*/
+ z-index: 2; /*必ず必要*/
+ display: flex;
+ width: 50%;
+ height:auto;
+ text-align:left;
+ color:#fff;
+ background-color: rgba(0,0,0,0.5);
+ right:0px;
+ bottom:10%;
+border:solid 1px #fff;
+border-right:transparent;
+border-radius: 15px 0px 0px 15px;
+padding-left:20px;
+}
+    
+}
+
+p{
+font-family: 'Roboto', sans-serif !important;
+font-size:14pt;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+a:hover{
+    color:#fff;
+}
+a:active{
+    color:#fff;
+}
