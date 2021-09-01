@@ -4158,8 +4158,8 @@ hr.short {
 .background-1 {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) ) !important;
     width:100%;
-    height: 768px!important;
-    /* height: 100vh; */
+    /* height: 768px!important; */
+    height: auto;
 }
 @media screen and (max-width: 768px) {
     .background-2{
@@ -9818,7 +9818,7 @@ line-height: 2.4rem! important;
 }
 
 /* strollTrigger-Gsap Css */
-.position-absolute {
+.position-absolutes {
   position: absolute;
   top:-70px
 }
@@ -9852,24 +9852,67 @@ line-height: 2.4rem! important;
   transition: trsnslate(-50%, -50%);
   transform: translate(-50%, -50%);
   font-size: 65px;
-  color: rgba();
   color: white;
+  width: 100%;
 }
 
 /* Utility  */
- /* .vh-80 {
-  height: 40vh !important;
-} */
+ .vh-80 {
+  height: 80vh !important;
+}
+
+
+@media screen and (max-width: 768px) {
+  .num {
+    font-size: 50px !important;
+    top:75%;
+  }
+  .position-absolutes {
+    position: absolute;
+    top:-30px;
+    padding: 0px 60px 0px 30px;
+  }
+
+  
+   .background-1 {
+    height: 100vh !important; 
+} 
+       
+} 
 
 @media screen and (min-width: 1500px) {
-  .vh-80 {
-    height: 40vh !important;
-  }
+  
   .background-1 {
     height: 100vh !important;
 }
 .svg-updated-width-height {
-  height: 65vh;
+  height: 67vh !important;
 }
+.mt-2{
+  margin-top: -30px !important;
+}
+.scrolldown1{
+  /*描画位置※位置は適宜調整してください*/
+  position:absolute;
+  left:50%;
+  bottom:-100px;
+  /*全体の高さ*/
+  height:130px;
 
+}
+}
+@media screen and (min-width: 1800px) {
+ 
+.mt-2{
+  margin-top: -30px !important;
+}
+.scrolldown1{
+  /*描画位置※位置は適宜調整してください*/
+  position:absolute;
+  left:50%;
+  bottom:-100px;
+  /*全体の高さ*/
+  height:160px;
+
+}
 }
