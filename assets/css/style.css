@@ -4159,7 +4159,6 @@ hr.short {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) ) !important;
     width:100%;
     height: 768px!important;
-    /* height: auto; */
     /* height: 100vh; */
 }
 @media screen and (max-width: 768px) {
@@ -9858,26 +9857,31 @@ line-height: 2.4rem! important;
 }
 
 /* Utility  */
- .vh-80 {
+ /* .vh-80 {
   height: 80vh !important;
-}
-
-
+} */
+ 
 @media screen and (max-width: 575px) {
   .num {
     font-size: 60px !important;
-    top:75%;
-    /* padding: 0px 60px 0px 30px; */
+    top:58vh;
   }
   .position-absolutes {
     position: absolute;
-    top:-30px;
-    /* padding: 0px 60px 0px 30px; */
+    top:-70px;
   }
-
+  .mt-2{
+    margin-top: 22vh !important;
+  }
   
    .background-1 {
     height: 100vh !important; 
+} 
+.scrolldown1 {
+  bottom: -50px; 
+}
+.vh-80 {
+  height: 80vh !important;
 } 
        
 } 
@@ -9900,8 +9904,10 @@ line-height: 2.4rem! important;
   bottom:-23%;
   /*全体の高さ*/
   height:54%;
-
 }
+.vh-80 {
+  height: 80vh !important;
+} 
 }
 @media screen and (min-width: 1800px) {
  
@@ -9915,6 +9921,8 @@ line-height: 2.4rem! important;
   bottom:-100px;
   /*全体の高さ*/
   height:160px;
-
 }
+.vh-80 {
+  height: 80vh !important;
+} 
 }
