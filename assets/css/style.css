@@ -4158,7 +4158,7 @@ hr.short {
 .background-1 {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) ) !important;
     width:100vw !important;
-    height: 120vh !important;
+    height: 120vh;
 }
 @media screen and (max-width: 768px) {
     .background-2{
@@ -9848,7 +9848,6 @@ line-height: 2.4rem! important;
   position: absolute;
   top: 60%;
   left: 50%;
-  transition: trsnslate(-50%, -50%);
   transform: translate(-50%, -50%);
   font-size: 65px;
   color: white;
@@ -9856,11 +9855,11 @@ line-height: 2.4rem! important;
 }
 
 /* Utility  */
- .vh-80 {
+ /* .vh-80 {
   height: 80vh !important;
-}
+} */
  
-/* @media screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
   .num {
     font-size: 60px !important;
     top:58vh;
@@ -9885,7 +9884,7 @@ line-height: 2.4rem! important;
        
 } 
 
-@media screen and (min-width: 1500px) {
+/* @media screen and (min-width: 1500px) {
   
   .background-1 {
     height: 100vh !important;
