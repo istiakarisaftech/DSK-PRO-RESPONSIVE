@@ -196,3 +196,5 @@ t1.to(lneplayed6, { opacity: 1 })
 t1.to(num, { var: 100000000, duration: num.counterNodeDur, ease: "none", onUpdate: changeNumber, delay: num.counterNodeDelay  })
 // nav-opacity-1
 t1.to(".st-nav", { opacity: 1, duration: num.counterNodeDur*50, delay: num.scrollEndDelay})
+
+ 
