@@ -9827,7 +9827,7 @@ line-height: 2.4rem! important;
 }
 
 .right-200 {
-  right: 50vw;
+  transform: translateX(0vw);
 }
 
 .opacity-0 {
@@ -9839,14 +9839,14 @@ line-height: 2.4rem! important;
 }
 
 .svg-updated-width-height {
-  width: 100vh;
+  width: 100vw;
   height: 72vh;
   margin-top: 2.5vh;
 }
 
 .num {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 65px;
@@ -9883,8 +9883,21 @@ line-height: 2.4rem! important;
 } 
        
 } 
+@media (min-height: 769px) { 
+ 
+  .background-1 {
+    height: 120vh !important; 
+} 
+.mt-2 {
+  margin-top: 40vh!important;
+}
+.vh-80 {
+  height: 80vh !important;
+}
+}
+ 
 
-/* @media screen and (min-width: 1500px) {
+@media screen and (min-width: 1500px) {
   
   .background-1 {
     height: 100vh !important;
@@ -9923,4 +9936,4 @@ line-height: 2.4rem! important;
 .vh-80 {
   height: 80vh !important;
 } 
-} */
+}
