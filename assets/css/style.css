@@ -9858,7 +9858,7 @@ line-height: 2.4rem! important;
  /* .vh-80 {
   height: 80vh !important;
 } */
- 
+ /* Maximum media wuery */
 @media screen and (max-width: 575px) {
   .num {
     font-size: 60px !important;
@@ -9870,7 +9870,7 @@ line-height: 2.4rem! important;
   }
   .mt-small{
     position: absolute;
-    top: 50% !important;
+    top: 45% !important;
   }
   .mt-1{
     margin-top: 0px !important;
@@ -9895,13 +9895,44 @@ line-height: 2.4rem! important;
        
 } 
 
+@media screen and (max-width: 1025px) {
+ 
+  .position-absolutes {
+    position: absolute;
+    top:-70px;
+  }
+  .mt-small{
+    position: absolute;
+    top: 45% !important;
+  }
+  .mt-1{
+    margin-top: 0px !important;
+  }
+  .mt-2{
+    margin-top: 22vh !important;
+  }
+  .mt-bottom-small{
+    position: absolute;
+    top: 76%;
+  }
+  
+   
+.scrolldown1 {
+  bottom: -60px; 
+}
+.vh-80 {
+  height: 80vh !important;
+} 
+       
+} 
+
 @media screen and (max-width: 321px){
 .num {
     font-size: 50px !important;
     top: 60vh;
 }
 }
-
+/* Minimum media query */
 @media (min-height: 769px) { 
  
   .background-1 {
