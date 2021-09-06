@@ -167,7 +167,7 @@ t1.to('.st-titleTop', {
   x: "-100vw"
 })
 //svg translate-(+X)
-t1.to(".right-n-200 ", { x: "0vw"})
+t1.to(".right-n-200 ", { x: "0vw", opacity: 1})
 t1.to(".opacity-0", { opacity: 1 })
 // svg-node-1
 const lneplayed1 = gsap.utils.toArray('.c1,.c2,.p1');
