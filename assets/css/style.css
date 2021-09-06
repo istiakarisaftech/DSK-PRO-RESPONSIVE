@@ -9840,7 +9840,7 @@ line-height: 2.4rem! important;
 
 .svg-updated-width-height {
   width: 100vw;
-  height: 72vh;
+  height: 65vh;
   margin-top: 2.5vh;
 }
 
@@ -9916,7 +9916,6 @@ line-height: 2.4rem! important;
     top: 76%;
   }
   
-   
 .scrolldown1 {
   bottom: -60px; 
 }
@@ -9985,12 +9984,6 @@ line-height: 2.4rem! important;
 .vh-80 {
   height: 80vh !important;
 } 
-.svg-updated-width-height {
-  height: 65vh !important;
+ 
 }
-}
-@media screen and (min-width: 2500px) {
-  .svg-updated-width-height {
-    height: 65vh !important;
-  }
-}
+ 
