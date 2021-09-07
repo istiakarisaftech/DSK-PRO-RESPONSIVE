@@ -9979,7 +9979,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1440px) and (max-height: 673px) {
+@media screen and (min-width: 1350px) and (max-height: 690px) {
   .svg-updated-width-height {
     height: 60vh;
   }
